@@ -38,6 +38,9 @@ spring.cloud.refresh.refreshable: false
 
 # Logging
 logging.level.org.springframework: INFO
+logging:
+  file:
+    name: /var/log/microservices/${spring.application.name}.log
 
 # Metrics
 management:
