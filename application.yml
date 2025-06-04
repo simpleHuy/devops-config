@@ -39,8 +39,7 @@ spring.cloud.refresh.refreshable: false
 # Logging
 logging:
   level:
-    root: DEBUG
-logging:
+      root: DEBUG
   file:
     name: /var/log/devops/${spring.application.name}.log
 
