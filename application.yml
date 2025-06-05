@@ -42,6 +42,9 @@ logging:
       root: INFO
   file:
     name: /var/log/devops/${spring.application.name}.log
+  pattern:
+    level: "[%X{traceId:-}] [%X{spanId:-}] %5p"
+
 
 # Metrics
 management:
