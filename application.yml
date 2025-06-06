@@ -40,10 +40,6 @@ spring.cloud.refresh.refreshable: false
 logging:
   level:
     root: INFO
-    org.springframework.samples.petclinic: DEBUG
-    org.springframework.cloud: DEBUG
-    org.springframework.web: INFO
-    org.hibernate: WARN
   file:
     name: /var/log/devops/${spring.application.name}.log
     max-size: 10MB
