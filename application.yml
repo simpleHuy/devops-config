@@ -40,6 +40,9 @@ spring.cloud.refresh.refreshable: false
 logging:
   level:
     root: INFO
+    org.springframework.boot.actuate.endpoint.web: DEBUG
+    org.springframework.boot.actuate.endpoint.web.servlet: DEBUG
+
   file:
     name: /var/log/devops/${spring.application.name}.log
     max-size: 10MB
